@@ -1,0 +1,31 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 300px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(036, 117, 247);
+  border-radius: 5px;
+}
+
+.divIMG {
+  display: flex;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+.contenedorCard {
+  background-color: rgb(210, 220, 232);
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
