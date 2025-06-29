@@ -1,3 +1,5 @@
+import { TextProduct } from "./TextProduct";
+
 export const CardProduct = () => {
   const productos = [
     {
@@ -13,7 +15,8 @@ export const CardProduct = () => {
   return (
     <>
       <div>
-        <img src="https://i.pravatar.cc/300" alt="Product" />
+        <img src={elemen.img} alt="Product" />
+        <TextProduct />
       </div>
     </>
   );
