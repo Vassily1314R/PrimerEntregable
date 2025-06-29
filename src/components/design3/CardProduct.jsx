@@ -1,5 +1,5 @@
 import { TextProduct } from "./TextProduct";
-
+import style from "./CardProduct.module.css";
 export const CardProduct = () => {
   const productos = [
     {

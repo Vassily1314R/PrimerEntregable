@@ -1,3 +1,5 @@
+import style from "./CardProduct.module.css";
+
 export const TextProduct = ({
   title,
   subtitle,
