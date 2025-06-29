@@ -17,6 +17,7 @@ function App() {
           <Route path="/design1" element={<NotFound />} />
           <Route path="/design2" element={<CardStar />} />
           <Route path="/design3" element={<CardProduct />} />
+          <Route path="/design4" element={<Card />} />
         </Routes>
       </Router>
     </>
