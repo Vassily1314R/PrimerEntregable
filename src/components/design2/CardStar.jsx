@@ -23,7 +23,7 @@ export const CardStar = () => {
     },
     {
       pfp: "https://i.pravatar.cc/80",
-      nombre: "Astrid",
+      nombre: "Karla Lopez",
       calificacion: "⭐️⭐️⭐️",
       descripcion: "Accesible, facil, escalable",
     },
