@@ -4,25 +4,25 @@ import { TextCard } from "./TextCard.jsx";
 export const CardStar = () => {
   const usuarios = [
     {
-      pfp: "https://i.pravatar.cc/150",
+      pfp: "https://i.pravatar.cc/80",
       nombre: "Juan Perez",
       calificacion: "⭐️⭐️⭐️⭐️⭐️",
       descripcion: "Aprende React paso a paso",
     },
     {
-      pfp: "https://i.pravatar.cc/150",
+      pfp: "https://i.pravatar.cc/80",
       nombre: "Armando Paredes",
       calificacion: "⭐️⭐️⭐️",
       descripcion: "Framework completo de Google",
     },
     {
-      pfp: "https://i.pravatar.cc/150",
+      pfp: "https://i.pravatar.cc/80",
       nombre: "Vassily",
       calificacion: "⭐️⭐️⭐️⭐️⭐️",
       descripcion: "Fácil de aprender, exclente metodologia, excelentes clases",
     },
     {
-      pfp: "https://i.pravatar.cc/150",
+      pfp: "https://i.pravatar.cc/80",
       nombre: "Astrid",
       calificacion: "⭐️⭐️⭐️",
       descripcion: "Accesible, facil, escalable",
