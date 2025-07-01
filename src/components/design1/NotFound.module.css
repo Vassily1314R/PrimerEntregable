@@ -1,5 +1,13 @@
 .contenedor {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   flex-wrap: wrap;
+  height: 90vh;
+}
+
+.img {
+  height: 25em;
+  width: 25em;
+  margin-top: 50px;
+  margin-right: 50px;
 }

@@ -1,0 +1,15 @@
+.DivBody {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contenedor {
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 300px;
+  justify-content: space-between;
+  padding: 15px;
+  margin: 5px;
+}

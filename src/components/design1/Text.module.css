@@ -1,5 +1,23 @@
 .contenedor {
-  border: 1px solid red;
-  width: 300px;
-  padding: 15px;
+  /* border: 1px solid red; */
+  width: 450px;
+  padding: 10px;
+}
+
+.title {
+  padding-bottom: 30px;
+  font-size: 50px;
+}
+
+.p {
+  padding-bottom: 30px;
+  margin-right: 100px;
+}
+
+.button {
+  padding: 12px;
+  background-color: black;
+  color: white;
+  font-size: 8px;
+  border-radius: 5%;
 }

@@ -4,25 +4,25 @@ import { TextCard } from "./TextCard.jsx";
 export const CardStar = () => {
   const usuarios = [
     {
-      pfp: "https://i.pravatar.cc/150",
+      pfp: "",
       nombre: "Juan Perez",
       calificacion: "⭐️⭐️⭐️⭐️⭐️",
       descripcion: "Aprende React paso a paso",
     },
     {
-      pfp: "https://i.pravatar.cc/150",
+      pfp: "",
       nombre: "Armando Paredes",
       calificacion: "⭐️⭐️⭐️",
       descripcion: "Framework completo de Google",
     },
     {
-      pfp: "https://i.pravatar.cc/150",
+      pfp: "",
       nombre: "Vassily",
       calificacion: "⭐️⭐️⭐️⭐️⭐️",
-      descripcion: "Fácil de aprender y progresivo",
+      descripcion: "Fácil de aprender, exclente metodologia, excelentes clases",
     },
     {
-      pfp: "https://i.pravatar.cc/150",
+      pfp: "",
       nombre: "Astrid",
       calificacion: "⭐️⭐️⭐️",
       descripcion: "Accesible, facil, escalable",
@@ -30,11 +30,11 @@ export const CardStar = () => {
   ];
 
   return (
-    <>
+    <div className={style.contenedor}>
       {usuarios.map((elem) => {
         return (
-          <div className={style.contenedor} key={elem.nombre}>
-            <img src={elem.pfp} alt="random image" />
+          <div className={style.contenedorCardStar} key={elem.nombre}>
+            <img className={style.img} src={elem.pfp} alt="random image" />
             <TextCard
               nombre={elem.nombre}
               calificacion={elem.calificacion}
@@ -43,6 +43,8 @@ export const CardStar = () => {
           </div>
         );
       })}
-    </>
+    </div>
   );
 };
+
+// https://i.pravatar.cc/150

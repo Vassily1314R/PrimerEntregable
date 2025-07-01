@@ -1,0 +1,33 @@
+.nombre {
+  color: rgb(110, 0, 173);
+}
+
+.estrellas {
+  padding-bottom: 5px;
+}
+
+.descripcion {
+  padding-bottom: 15px;
+  font-size: 12px;
+}
+
+.readm {
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 5px;
+  color: rgb(110, 0, 173);
+  background-color: white;
+  border: 1px solid rgb(110, 0, 173);
+  border-radius: 5px;
+}
+
+.contact {
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgb(110, 0, 173);
+  color: white;
+  border: 1px solid rgb(110, 0, 173);
+  border-radius: 5px;
+}
