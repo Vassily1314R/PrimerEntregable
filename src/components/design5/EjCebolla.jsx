@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export const EjCebolla = () => {
-  const [Clock, setClock] = useState("");
+  // const [Clock, setClock] = useState("");
 
   const Cebolla = "cebolla";
 
