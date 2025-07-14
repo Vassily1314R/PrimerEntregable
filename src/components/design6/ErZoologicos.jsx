@@ -1,9 +1,12 @@
+import styles from "./ErZoologicos.module.css";
+
 export const ErZoologicos = () => {
   return (
-    <div>
-      <h1>Bienvenido</h1>
+    <div className={styles.container}>
+      <h1 className={styles.title}>Bienvenido</h1>
       <img
-        src="https://res.cloudinary.com/dpz8r2olk/image/upload/v1752518658/Diagrama_ER_Zoologicos_animales_wovbuj.png"
+        className={styles.diagram}
+        src="https://res.cloudinary.com/dpz8r2olk/image/upload/v1752519798/Diagrama_ER_Zoologicos_animales_1_xjj8ol.svg"
         alt="Diagrama ER Zoo"
       />
     </div>
