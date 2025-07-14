@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import styles from "./EjCebolla.module.css";
 
 export const EjCebolla = () => {
   const [Clock, setClock] = useState("");
@@ -32,10 +33,11 @@ export const EjCebolla = () => {
   };
 
   return (
-    <>
-      <div>
+    <div className={styles.container}>
+      <div className={styles.header}>
         <h1>Bienvenido al ejercicio Onion alert</h1>
         <textarea
+          className={styles.textarea}
           name=""
           id=""
           cols="50"
@@ -44,18 +46,25 @@ export const EjCebolla = () => {
           onChange={handleChange}
         ></textarea>
       </div>
-      <footer>
+      <footer className={styles.footer}>
         <p>Hora actual: {Clock} </p>
       </footer>
-      <div style={{ background: "grey" }}>
-        <img src="https://i.pravatar.cc/80" alt="album" />
-        <h1>Rozes</h1>
-        <h5>Solista</h5>
+      <div className={styles.card}>
+        <img
+          className={styles.avatar}
+          src="https://i.pravatar.cc/80"
+          alt="album"
+        />
+        <h1 className={styles.title}>Rozes</h1>
+        <h5 className={styles.subtitle}>Solista</h5>
+        <p className={styles.song}>under the grave</p>
+        <span className={styles.genre}>dance</span>
         <br />
-        <p>under the grave</p>
-        <span>dance</span>
-        <span onClick={handleHeart}>{heartState ? heart : redHeart}</span>
+
+        <span className={styles.heart} onClick={handleHeart}>
+          {heartState ? redHeart : heart}
+        </span>
       </div>
-    </>
+    </div>
   );
 };
