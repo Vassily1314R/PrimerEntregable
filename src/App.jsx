@@ -6,6 +6,7 @@ import { NavBar } from "./components/NavBar";
 import { CardStar } from "./components/design2/CardStar";
 import { CardProduct } from "./components/design3/CardProduct";
 import { EjCebolla } from "./components/design5/EjCebolla";
+import { ErZoologicos } from "./components/design6/ErZoologicos";
 
 function App() {
   // Solo JS
@@ -19,6 +20,7 @@ function App() {
           <Route path="/design3" element={<CardProduct />} />
           <Route path="/design4" element={<Card />} />
           <Route path="/design5" element={<EjCebolla />} />
+          <Route path="/design6" element={<ErZoologicos />} />
         </Routes>
       </Router>
     </>
