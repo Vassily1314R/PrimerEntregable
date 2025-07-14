@@ -4,7 +4,7 @@ import styles from "./ErZoologicos.module.css";
 const diagramas = [
   {
     nombre: "Zoológicos",
-    url: "https://res.cloudinary.com/dpz8r2olk/image/upload/v1752518658/Diagrama_ER_Zoologicos_animales_wovbuj.png",
+    url: "https://res.cloudinary.com/dpz8r2olk/image/upload/v1752519798/Diagrama_ER_Zoologicos_animales_1_xjj8ol.svg",
   },
   {
     nombre: "Gabinete abogados",
