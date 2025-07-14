@@ -1,6 +1,6 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Card } from "./components/Card";
+import { Card } from "./components/design4/Card";
 import { NotFound } from "./components/design1/NotFound";
 import { NavBar } from "./components/NavBar";
 import { CardStar } from "./components/design2/CardStar";
@@ -9,7 +9,6 @@ import { EjCebolla } from "./components/design5/EjCebolla";
 
 function App() {
   // Solo JS
-  //<Card />
   return (
     <>
       <Router>
