@@ -1,7 +1,21 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 export const EjCebolla = () => {
-  // const [Clock, setClock] = useState("");
+  const [Clock, setClock] = useState("");
+
+  // useEffect para actualizar la hora cada segundo
+  useEffect(() => {
+    const updateClock = () => {
+      const now = new Date();
+      const timeString = now.toLocaleTimeString();
+      setClock(timeString);
+    };
+
+    updateClock(); // Llamada inicial
+    const interval = setInterval(updateClock, 1000); // Actualiza cada 1s
+
+    return () => clearInterval(interval); // Limpieza al desmontar
+  }, []);
 
   const Cebolla = "cebolla";
 
@@ -31,7 +45,7 @@ export const EjCebolla = () => {
         ></textarea>
       </div>
       <footer>
-        <p>{Clock} </p>
+        <p>Hora actual: {Clock} </p>
       </footer>
       <div style={{ background: "grey" }}>
         <img src="https://i.pravatar.cc/80" alt="album" />
