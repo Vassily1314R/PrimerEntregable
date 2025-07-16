@@ -14,6 +14,10 @@ const diagramas = [
     nombre: "Sistema de ventas",
     url: "https://res.cloudinary.com/dpz8r2olk/image/upload/v1752521010/Diagrama_ER_Sistema_ventas_cnel3f.svg",
   },
+  {
+    nombre: "Universidad Virtual Internacional",
+    url: "https://res.cloudinary.com/dpz8r2olk/image/upload/v1752704796/Modelo_ER_Universidad_1_ndaqus.png",
+  },
 ];
 
 export const ErZoologicos = () => {
