@@ -8,7 +8,7 @@ const diagramas = [
   },
   {
     nombre: "Gabinete abogados",
-    url: "https://res.cloudinary.com/dpz8r2olk/image/upload/v1752520983/Diagrama_ER_Gabinete_abogados_bpxurz.svg",
+    url: "https://res.cloudinary.com/dpz8r2olk/image/upload/v1752710736/Diagrama_ER_Gabinete_abogados_jt0pis.svg",
   },
   {
     nombre: "Sistema de ventas",
